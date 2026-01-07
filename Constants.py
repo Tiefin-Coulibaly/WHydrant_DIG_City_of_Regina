@@ -83,6 +83,19 @@ FEATURE_SCHEMA = {
         "alias": "Symbol Angle",
         "default": 0,
     },
+    "WN_LIMIT_BOUNDARY_ID": {
+        "type": "LONG",
+        "alias": "WN Limit Boundary Id",
+    },
+    "WN_LIMIT_BOUNDARY_NAME": {
+        "type": "TEXT",
+        "alias": "WN Limit Boundary Name",
+    },
+    "BOUNDARY_STATUS": {
+        "type": "TEXT",
+        "alias": "Boundary Status",
+    },
+
 }
 
 DOMAINS_TO_CREATE_IN_GDB = {
